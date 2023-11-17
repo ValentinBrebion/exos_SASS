@@ -1,0 +1,40 @@
+@mixin sectiontitle($size) {
+    font : {
+        size:$size;
+        weight: bold;
+        family: nunito sans;
+    }
+    padding: {
+        top:30px;
+        left:30px;
+        right:30px;
+        bottom:10px;
+    }
+    line-height: 63px;
+}
+
+@mixin description($long) {
+    font: {
+        family: nunito sans;
+        weight: 400px;
+    }
+    padding:30px;
+    opacity: 0.70;
+    line-height: 30px;
+    width:$long;
+}
+
+@mixin buttonpurple {
+    text-decoration: none;
+        background-color: #5454D4;
+        padding: 1rem 1rem 1rem 1rem;
+        width: 38%;
+        margin: {
+            left:30px;
+            bottom: 15%;
+        }
+        padding:1rem 2rem 1rem 2rem;
+        font-family: nunito sans;
+        color:white;
+        text-indent: 3px;
+}
